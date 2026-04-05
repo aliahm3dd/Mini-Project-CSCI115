@@ -1,0 +1,152 @@
+/* ===== FONT PLACEHOLDER ===== */
+body {
+    font-family:markazi;
+}
+
+
+@font-face {
+    font-family: 'Markazi';
+    src: url('fonts/MarkaziText-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+marquee {
+    font-size: 20px;
+    font-weight: bold;
+    
+    color:#F1E5C6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    background-color: #01110a;
+    color: #F1E5C6;
+}
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+
+    padding: 20px 40px;
+    background-color: #F1E5C6;
+    position:absolute;
+    width: 100%;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #FF421C;
+    margin-left: 25px;
+    text-shadow: 1px 1px 2px #fdc565;
+}
+
+nav a:hover {
+    color: #573900;
+}
+
+nav a.active {
+    color: #1F4737;
+}
+
+nav a.visited {
+    color: #770000;
+}
+
+
+/* DESC */
+.DESC {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 50px 50px;
+}
+
+.DESC-text {
+    max-width: 500px;
+}
+
+.DESC-text h1 {
+    font-size: 5vw;
+}
+
+.DESC-text p {
+    margin: 15px 0;
+    color: #F1E5C6;
+}
+
+.DESC-text button {
+    padding: 12px 25px;
+    background-color: #FF421C;
+    border: none;
+    color: #F1E5C6;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.DESC-text button:hover {
+    background-color: #1F4737;
+}
+
+.DESC-image img {
+    max-width: 360px;
+    border-radius: 40px;
+    margin-top: 40px;
+   
+}
+
+img:hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+/* FEATURED */
+.featured {
+    padding-bottom: 150px; 
+}
+
+
+.featured h2 {
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 15px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #033118;
+    margin-top: 40px;
+}

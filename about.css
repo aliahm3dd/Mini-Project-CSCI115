@@ -1,0 +1,130 @@
+/* ABOUT SECTION */
+
+body {
+    background-color: #01110a;
+    color: #F1E5C6;
+    font-family: markazi;
+}
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+    padding: 15px 30px; 
+    background-color: #F1E5C6;
+    color:#FF421C;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0; 
+
+    box-sizing: border-box; 
+}
+
+nav a {
+    color: #FF421C;
+    margin-left: 25px;
+    text-shadow: 1px 1px 2px #fdc565;
+}
+
+nav a:hover {
+    color: #573900;
+}
+
+nav a.active {
+    color: #1F4737;
+}
+
+nav a.visited {
+    color: #770000;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 160px 50px;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    color: #ccc;
+}
+
+.about-img img {
+    width: 400px;
+    
+    border-radius: 5px;
+}
+
+/* HOURS TABLE */
+.hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hours table {
+    width: 300px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.hours th, .hours td {
+    border: 1px solid #577558;
+    padding: 10px;
+    text-align: center;
+}
+
+.hours th {
+    background-color: #285b47;
+}
+
+/* CONTACT */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #FF421C;
+    border-radius: 20px;
+    color: #F1E5C6;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1F4737;
+}
