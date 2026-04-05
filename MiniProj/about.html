@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About - Arabian Nites</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+    <!-- NAVBAR-->
+    <header>
+        <div class="logo">Arabian Nites</div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+        <div class="about-text">
+            <h1>About Us</h1>
+            <p>
+                At Arabian Nites, we bring together the vibrant flavors and traditions of the Arab world in a modern dining experience. 
+                Our dishes are inspired by authentic recipes, prepared with fresh ingredients and bold spices. 
+                From comforting street food to refined specialties, every plate tells a story. 
+                We strive to create a warm, welcoming atmosphere where guests can enjoy great food,
+                culture, and unforgettable moments together.
+            </p>
+        </div>
+
+        <div class="about-img">
+            <img src="imgs/abtimg.jpg" alt="restaurant">
+        </div>
+    </section>
+
+    <!-- OPENING HOURS -->
+    <section class="hours">
+        <h2>Opening Hours</h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Monday - Friday</td>
+                <td>12:00 PM - 10:00 PM</td>
+            </tr>
+            <tr>
+                <td>Saturday - Sunday</td>
+                <td>1:00 PM - 12:00 AM</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+        <h2>Join Us</h2>
+
+        <form onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p style="text-align:center">© 2026 Arabian Nites</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+body {
+    background-color: #01110a;
+    color: #F1E5C6;
+    font-family: markazi;
+}
+
+.title {
+    
+    text-align: center;
+
+}
+
+
+.link{
+    color: #F1E5C6;
+
+}
+
+.link:hover {
+    color: #105700;
+}
+
+.link:active {
+    color: #521c43;
+}
+
+.link:visited {
+    color: #fe9318;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+
+.card {
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    width: 220px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
